@@ -1,66 +1,72 @@
-.profile{
-    width: 300px;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-  
-    background-color:white;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.profile {
+  width: 300px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
 
+  background-color: white;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.description{
-    background-color: white;
-    text-align: center;
+.description {
+  background-color: white;
+  text-align: center;
 }
-.avatar{
-    width: 150px;
-border-radius: 50%;
-background-color: aliceblue;
-margin-left: auto;
-margin-right: auto;
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
 }
-.name{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 700;}
-.tag{
-    text-align: center;
-margin-top: 10px;
-color: darkgrey;
+.name {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
 }
-.location{
-    text-align: center;
-margin-top: 10px;
-color: darkgrey;
+.tag {
+  text-align: center;
+  margin-top: 10px;
+  color: darkgrey;
 }
-.stats{
-list-style: none;
-display:flex ;
+.location {
+  text-align: center;
+  margin-top: 10px;
+  color: darkgrey;
+}
+.stats {
+  list-style: none;
+  display: flex;
 
-background-color: mintcream;
-border-top: 2px solid gainsboro;
+  background-color: mintcream;
+  border-top: 2px solid gainsboro;
 }
 li {
-    width: 100px;
-padding: 10px 0px;
+  width: 100px;
+  padding: 10px 0px;
 }
-.label{
-display: block;
-text-align: center;
-margin-bottom: 10px;
-color: darkgrey;}
-.quantity{
-display: block;
-text-align: center;
-font-weight: 700;
+.label {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  color: darkgrey;
+}
+.quantity {
+  display: block;
+  text-align: center;
+  font-weight: 700;
 }
 /* переместить в общий  */
-ul{
-padding: 0;
-margin: 0;
-list-style: none;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-p, h1, h2, h3{
-margin: 0;padding: 0;
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
 }
