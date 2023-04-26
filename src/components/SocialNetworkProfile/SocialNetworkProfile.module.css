@@ -35,32 +35,32 @@ margin-top: 10px;
 color: darkgrey;
 }
 .stats{
-    list-style: none;
-    display:flex ;
+list-style: none;
+display:flex ;
 
-    background-color: mintcream;
-    border-top: 2px solid gainsboro;
+background-color: mintcream;
+border-top: 2px solid gainsboro;
 }
 li {
     width: 100px;
 padding: 10px 0px;
 }
 .label{
-    display: block;
+display: block;
 text-align: center;
 margin-bottom: 10px;
 color: darkgrey;}
 .quantity{
-    display: block;
+display: block;
 text-align: center;
 font-weight: 700;
 }
 /* переместить в общий  */
 ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
+padding: 0;
+margin: 0;
+list-style: none;
 }
 p, h1, h2, h3{
-    margin: 0;padding: 0;
+margin: 0;padding: 0;
 }
