@@ -1,11 +1,18 @@
-import { Profile } from 'components/SocialNetworkProfile/SocialNetworkProfile'
-import {Statistics} from 'components/Statistics/Statistics'
-import css from 'components/App.module.css'
+import {Profile} from './SocialNetworkProfile/SocialNetworkProfile';
+import user from '../user.json'
+import css from 'components/app.module.css'
 
 export const App = () => {
   return (
-    <section className={css.section}>
-      <Profile/>
-    </section>
+    <div className={css.section}>
+      <Profile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+    </div>
   );
-};
+}
+

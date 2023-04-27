@@ -1,1 +1,5 @@
-import css from 'components/Statistics/Statistics.module.css'
+
+
+export const Statistics = () => {
+    return 1
+}
