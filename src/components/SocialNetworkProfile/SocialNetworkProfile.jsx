@@ -2,7 +2,7 @@ import css from './SocialNetworkProfile.module.css';
 import PropTypes from 'prop-types';
 import user from '../../user.json'
 import { MdAlternateEmail } from 'react-icons/md';
-export const SocialNetworkProfile =({username, tag, location, avatar, stats}) =>{
+export const Profile =({username, tag, location, avatar, stats}) =>{
     return (<div className={css.profile}>
     <div className={css.description}>
       <img
@@ -31,7 +31,7 @@ export const SocialNetworkProfile =({username, tag, location, avatar, stats}) =>
     </ul>
   </div>)
 };
-SocialNetworkProfile.propTypes = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
