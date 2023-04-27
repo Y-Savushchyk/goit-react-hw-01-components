@@ -1,0 +1,1 @@
+import css from 'components/Statistics/Statistics.module.css'
