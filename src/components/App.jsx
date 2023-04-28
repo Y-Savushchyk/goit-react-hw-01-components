@@ -1,6 +1,6 @@
 import {Profile} from './SocialNetworkProfile/SocialNetworkProfile';
 import user from '../user.json'
-import { Statistics } from './Statistics/Statistics'
+import {Statistics}  from './Statistics/Statistics'
 import data from '../data.json'
 
 export const App = () => {
