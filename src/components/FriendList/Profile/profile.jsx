@@ -14,9 +14,10 @@ export const Profile = ({avatar, name, isOnline}) => {
   <p className={css.name}>{name}</p>
 </li>
     )
-    Profile.propTypes = {
+    
+}
+Profile.propTypes = {
         avatar: PropTypes.string,
         name: PropTypes.string,
         isOnline: PropTypes.bool,
     }
-}
