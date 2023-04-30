@@ -1,6 +1,11 @@
 .item {
+  text-align: center;
+  width: 100px;
+  padding: 10px;
 }
 .label {
+  text-align: center;
 }
 .percentage {
+  text-align: center;
 }

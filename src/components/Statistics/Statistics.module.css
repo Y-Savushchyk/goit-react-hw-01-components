@@ -1,12 +1,14 @@
 .statistics {
+  text-align: center;
 }
 .title {
+  text-align: center;
+  margin-top: 20px;
 }
-.stat-list {
-}
-.item {
-}
-.label {
-}
-.percentage {
+.statList {
+  margin: 5 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }

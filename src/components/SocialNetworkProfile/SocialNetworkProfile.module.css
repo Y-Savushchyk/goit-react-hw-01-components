@@ -41,11 +41,13 @@
 .stats {
   list-style: none;
   display: flex;
+  padding: 0;
+  margin: 0;
 
   background-color: mintcream;
   border-top: 2px solid gainsboro;
 }
-li {
+.item {
   width: 100px;
   padding: 10px 0px;
 }
@@ -61,11 +63,7 @@ li {
   font-weight: 700;
 }
 /* переместить в общий  */
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+
 p,
 h1,
 h2,

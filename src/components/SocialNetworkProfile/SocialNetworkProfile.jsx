@@ -20,7 +20,7 @@ export const  Profile = ({ username, tag, location, avatar, stats }) => {
             </div>
 
             <ul className={css.stats}>
-                <li >
+                <li  className={css.item}>
                     <span className={css.label}>Followers</span>
                     <span className={css.quantity}>{followers}</span>
                 </li>
