@@ -1,10 +1,10 @@
 import {Profile} from './SocialNetworkProfile/SocialNetworkProfile';
-import user from '../user.json'
+import user from '../data/user.json'
 import {Statistics}  from './Statistics/Statistics'
-import data from '../data.json'
-import { FriendList } from './FriendList/FriendList'
-import friends from '../friends.json'
-import transactions from '../transactions.json'
+import data from '../data/data.json'
+import {FriendList} from './FriendList/FriendList'
+import friends from '../data/friends.json'
+import transactions from '../data/transactions.json'
 import {TransactionHistory} from './TransactionHistory/TransactionHistory'
 
 export const App = () => {
@@ -24,6 +24,6 @@ export const App = () => {
 
       <TransactionHistory items={transactions} />
     </div>
-  );
+  )
 }
 

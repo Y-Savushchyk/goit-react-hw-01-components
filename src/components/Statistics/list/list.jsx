@@ -1,6 +1,6 @@
 import css from './list.module.css'
 import PropTypes from 'prop-types';
-import {randomColor} from '../../untils/RandomColor'
+import {randomColor} from '../../../untils/RandomColor'
 
 
 export const List = ({ label, percentage }) => {
