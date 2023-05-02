@@ -23,9 +23,9 @@ export const FriendListItem = ({id,isOnline,avatar,name}) => {
         
         <li className={css.itemList } key={id}>
             <div className={css.blockList}>
-                {isOnline 
-                    ? <span className={css.dotGreen}></span>
-                    : <span className={css.dotRed}></span>}
+                
+               <span className={`${css.status} ${isOnline ? css.dotGreen : css.dotRed}`}>
+  </span>
                 <img className={css.imgLogo} src={avatar} alt={name}></img>{name}</div></li>
         )
 
